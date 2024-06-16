@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@200;400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+
+.footer-container{
+    height: 100vh;
+    background-color: #4F090A;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    padding: 20px;
+}
+
+.footer-container-top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 10px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-container-top h4{
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.footer-container-top h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Container for the buttons */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the buttons */
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.toggle-button::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color:#ED912A;
+  text-decoration: underline;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.toggle-button.active::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.toggle-button.active {
+  background-color: #192E40;
+  color: #fff;
+}
+
+/* Style for the existing container */
+.existing-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    width: 100%;
+    padding-top: 100px;
+}
+.icon{
+    font-size: 5rem;
+    padding-bottom: 10px;
+    background-color: #192E40;
+    border-radius: 50%;
+    padding: 10px;
+}
+.icon:hover{
+    color:black;
+}
+.row p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.row h3{
+    margin-top: 15%;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.social-media{
+  margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/* Style for the new toggled container */
+.toggle-container {
+  text-align: center;
+}
+
+.enquiry-form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  background-color:#192E40;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

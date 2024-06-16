@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+.sidebar {
+  position: fixed;
+  overflow: visible;
+  top: 0;
+  left: -250px; /* Hidden by default */
+  width: 250px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  transition: left 0.3s ease;
+  padding-top: 60px;
+/* Adjust based on your navbar height */
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  color: aliceblue;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.sidebar li {
+  padding: 15px 20px;
+  cursor: pointer;
+  color:aliceblue;
+}
+
+.sidebar li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.fas fa-bars{
+  color:black;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+z-index: 9999;
+}

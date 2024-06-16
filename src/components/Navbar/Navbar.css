@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+.container {
+    padding: 5px;
+   padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+}
+nav {
+    width: 100%;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+.logo{
+    width: 200px; 
+    height: 100px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 50px;
+    font: 1.2em 'Amiko';
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+
+}
+.sidebar{
+    border: none;
+    size: 100%;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    
+}
+.sidebar:hover{
+    color: #f1f1f1;
+}
+/* Navbar.css */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px; /* Adjust as needed */
+  }
+  
+ul li {
+    color: black; /* Ensure text is visible over the hero image */
+    font-size: 18px; /* Adjust as needed */
+  }
+  
+ul li:hover {
+    text-decoration: underline; /* Optional: add a hover effect */
+  }
+  
